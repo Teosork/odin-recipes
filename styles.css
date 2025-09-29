@@ -1,0 +1,48 @@
+*, 
+*::before, 
+*::after {
+  box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-image: url("/images/menu.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire*/
+    height: 100%;
+}
+.recipes {
+    padding: 40px;
+    min-height: 100vh; /* ensures the section fills full screen */
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+    text-shadow: 2px 2px 4px rgba(119, 58, 14, 0.942);
+}
+.content {
+    background-color: rgba(89, 75, 75, 0.352);
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+}
+img {
+    margin: 20px auto;
+    display: block;
+    max-width: 20%;
+    height: auto;
+    border-radius: 8px;
+}
